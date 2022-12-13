@@ -1,0 +1,55 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 26.25em) {
+    .userApp{
+        max-width: 26.25em;
+    }
+    .content {
+        padding: 0;
+    }
+    .header__heading {
+        font-family: Merriweather;
+        font-weight: 900;
+        line-height: 40px;
+        font-size: 2.125rem;
+        font-style: normal;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading__fatherbtn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .heading__find {
+        padding: 0 40px;
+        position: relative;
+    }
+
+    .heading__input__find {
+        width: 100%;
+    }
+
+    .looking-font {
+        left: 50px;
+    }
+
+    .luser {
+        display: flex;
+        justify-content: center;  
+    }
+    
+
+    .luser__box {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+}
